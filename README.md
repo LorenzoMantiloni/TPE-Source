@@ -11,7 +11,7 @@ The functions collected in this repository implement the semi-analytical solutio
 
 The above reference should be cited whenever the software is employed.
 
-This code was created in windows MATLAB versions:
+This code was created in Windows MATLAB versions:
 
 2017b:2019b
 
@@ -27,14 +27,27 @@ and tested on 2020b version.
 The solutions provided in this software calculate the displacement, strain and stress field due to the TPE described in the Introduction, at given observation points within a half-space. The inputs and outputs are expressed in a cartesian reference frame and with the following units of measures: 
 
 Length/Displacement - m
+
 Pore pressure/Rigidity modulus/Stress - Pa
+
 Temperture - K
+
+The functions are currently optimized to work with horizontal grids of observation points (X,Y) at fixed depth (e.g. computing displacement at the free surface in an inversion of ground deformation data). 
 
 The TPE is meant to represent a permeable rock layer stressed and strained by hot and pressurized volatiles released upward by an underlying magmatic
 reservoir or, alternatively, a mushy magma storage region where an input of fresh magma is injected. The source is modeled as a thin horizontal disk inside which a sudden change of temperature (ΔT) and pore pressure (Δp) occurs. Semi-analytical solutions for the displacement and stress fields both within and outside
 the source are provided. 
 
 ## How to run
+
+[Index ^](#tpe-source)
+
+To run:
+* Download the file from GitHub
+* Unzip the folder and move it to the directory you would like to work from
+* Open MATLAB
+* Add the folder to the MatLab search path
+* Run using and editing 'MainFrame.m'
 
 ### Functions
 
