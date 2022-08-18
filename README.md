@@ -20,8 +20,10 @@ and tested on 2020b version.
 ## Index
 - [Introduction](#introduction)
 - [1. How to run](#1-how-to-run)
--  - [1.1. Functions](#11-1d-analytical-tests)
-- [2. Acknowledgements](#2-acknowledgements)  
+- [2. Functions](#2-functions)
+   - [2.1. TPE_Displacement](#21-tpe_displacement)
+   - [2.2. TPE_Stresses](#22-tpe_stresses)
+- [3. Acknowledgements](#3-acknowledgements)  
 
 ## Introduction
 The solutions provided in this software calculate the displacement, strain and stress field due to the TPE described in the Introduction, at given observation points within a half-space. The inputs and outputs are expressed in a cartesian reference frame and with the following units of measures: 
@@ -40,7 +42,7 @@ The TPE is meant to represent a permeable rock layer stressed and strained by ho
 reservoir or, alternatively, a mushy magma storage region where an input of fresh magma is injected. The source is modeled as a thin horizontal disk inside which a sudden change of temperature (ΔT) and pore pressure (Δp) occurs. Semi-analytical solutions for the displacement and stress fields both within and outside
 the source are provided. 
 
-## How to run
+## 1. How to run
 [Index ^](#tpe-source)
 
 To run:
@@ -50,10 +52,10 @@ To run:
 * Add the folder to the MatLab search path
 * Use the functions "TPE_Displacement" and "TPE_Stresses" as illustrated in the usage examples provided in their respective descriptions.
 
-### Functions
+## 2. Functions
 [Index ^](#cutanddisplace)
 
-#### TPE_Displacement
+### 2.1. TPE_Displacement
 
 Thermo-Poro-Elastic (Source) Displacement. Computes the displaceent components at points (x_obs, y_obs, z_obs) in a half-space, due to a TPE centred at point (tpe_x, tpe_y, c).          
 
@@ -100,7 +102,7 @@ Arguments: (output)
      vertical component. For NxN obs points, there will be three Nx1
      arrays.
 
-#### TPE_Stresses
+### 2.2. TPE_Stresses
 
 Thermo-Poro-Elastic (Source) Stresses. Computes the components of the stress tensor at points (x_obs, y_obs, z_obs) in a half-space, due to a TPE centred at point (tpe_x, tpe_y, c).
 
@@ -152,6 +154,6 @@ Arguments: (output)
      [E_xx,E_yy,E_zz,E_xy,E_xz,E_yz] (for N obs points, it will populate a
      N x 6 matrix)
      
-# Acknowledgments
+## 3. Acknowledgments
 
 This software was developed under the supervision of Dr. Massimo Nespoli, Prof. Dr. Maria Elina Belardinelli and Prof. Dr. Maurizio Bonafede at Università di Bologna, as part of a M.Sc. thesis, in the years 2018-2019. Valuable comments and suggestions have also been provided by Tim Davis, Mehdi Nikkhoo, Eleonora Rivalta and Francesca Silverii.
