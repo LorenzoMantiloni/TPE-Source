@@ -20,7 +20,8 @@ and tested on 2020b version.
 ## Index
 - [Introduction](#introduction)
 - [1. How to run](#1-how-to-run)
-- [2. Acknowledgements](#7-acknowledgements)  
+-  - [1.1. Functions](#11-1d-analytical-tests)
+- [2. Acknowledgements](#2-acknowledgements)  
 
 ## Introduction
 The solutions provided in this software calculate the displacement, strain and stress field due to the TPE described in the Introduction, at given observation points within a half-space. The inputs and outputs are expressed in a cartesian reference frame and with the following units of measures: 
