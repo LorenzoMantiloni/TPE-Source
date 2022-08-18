@@ -1,7 +1,7 @@
 # TPE-Source
 MatLab functions and scripts for displacement, strain and stress induced by a disk-shaped Thermo-Poro-Elastic source in a poro-elastic half-space.
 
-This software is for academic use. Do not use this in a commercial environment. 
+This software is for academic use. Do not use this in a commercial environment. I appreciate any feedback or bug report.
 
 The functions collected in this repository implement the semi-analytical solutions for displacement, strain and stress field due to a disk-shaped Thermo-Poro-Elastic source (TPE) included in an elastic half-space, and subject to a sudden increase in pore pressure and temperature, as described in:
 
@@ -46,7 +46,7 @@ the source are provided.
 [Index ^](#tpe-source)
 
 To run:
-* Download the file from GitHub
+* Download the TPE-Source folder from GitHub
 * Unzip the folder and move it to the directory you would like to work from
 * Open MATLAB
 * Add the folder to the MatLab search path
