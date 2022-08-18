@@ -40,7 +40,6 @@ reservoir or, alternatively, a mushy magma storage region where an input of fres
 the source are provided. 
 
 ## How to run
-
 [Index ^](#tpe-source)
 
 To run:
@@ -51,6 +50,7 @@ To run:
 * Use the functions "TPE_Displacement" and "TPE_Stresses" as illustrated in the usage examples provided in their respective descriptions.
 
 ### Functions
+[Index ^](#cutanddisplace)
 
 #### TPE_Displacement
 
