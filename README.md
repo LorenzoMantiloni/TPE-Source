@@ -20,8 +20,7 @@ and tested on 2020b version.
 ## Index
 - [Introduction](#introduction)
 - [1. How to run](#1-how-to-run)
-- [2. Code highlights and applications](#6-code-highlights-and-applications)  
-- [3. Acknowledgements](#7-acknowledgements)  
+- [2. Acknowledgements](#7-acknowledgements)  
 
 ## Introduction
 The solutions provided in this software calculate the displacement, strain and stress field due to the TPE described in the Introduction, at given observation points within a half-space. The inputs and outputs are expressed in a cartesian reference frame and with the following units of measures: 
@@ -151,3 +150,7 @@ Arguments: (output)
      (x_obs,y_obs,z_obs) given as a one-row array for each os point
      [E_xx,E_yy,E_zz,E_xy,E_xz,E_yz] (for N obs points, it will populate a
      N x 6 matrix)
+     
+# Acknowledgments
+
+This software was developed under the supervision of Dr. Massimo Nespoli, Prof. Dr. Maria Elina Belardinelli and Prof. Dr. Maurizio Bonafede at Università di Bologna, as part of a M.Sc. thesis, in the years 2018-2019. Valuable comments and suggestions have also been provided by Tim Davis, Mehdi Nikkhoo, Eleonora Rivalta and Francesca Silverii.
