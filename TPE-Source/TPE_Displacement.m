@@ -247,7 +247,7 @@ w=int_single3;
 
 U(count)=u;
 V(count)=v;
-W(count)=-w; %The vertical axis is positive downward in Mantiloni et al., 2020
+W(count)=w; 
 
 end
 
